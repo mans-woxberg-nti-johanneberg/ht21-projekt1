@@ -1,0 +1,39 @@
+#wrapper{
+    grid-template-rows: 200px auto 200px 100px;
+    grid-template-columns: 70% 30%;
+    grid-gap: 5px;
+    display: grid;
+    border: solid black 1px;
+    min-height: 100vh;
+    margin: auto;
+    grid-template-areas: 
+    'hd hd ' 
+    'mn as'
+    'mn as'
+    'ft as';
+     }
+
+header{
+    grid-area: hd;
+    justify-content: center;
+    display: flex;
+    font-style: oblique;
+    font-size: 100px;
+    background-color: blanchedalmond;
+} 
+main{
+    grid-area: mn;
+    background-color: burlywood;
+    
+}
+aside{
+    grid-area: as;
+    background-color: lightgoldenrodyellow;
+}
+footer{
+    font-size: 25px;
+    grid-area: ft;
+    background-color: navajowhite;
+}
+
+
