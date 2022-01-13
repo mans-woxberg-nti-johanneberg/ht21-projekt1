@@ -29,11 +29,14 @@ main{
 aside{
     grid-area: as;
     background-color: lightgoldenrodyellow;
+    font-size: 25px;
+    font-family: sans-serif;
 }
 footer{
     font-size: 25px;
     grid-area: ft;
     background-color: navajowhite;
+    font-family: sans-serif;
 }
 
 
